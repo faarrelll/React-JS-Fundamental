@@ -1,0 +1,116 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Card Component Snapshots > renders card with review status correctly 1`] = `
+<div>
+  <div
+    class="border rounded-lg p-4 shadow-sm"
+  >
+    <div
+      class="flex justify-between items-center mb-2"
+    >
+      <h2
+        class="text-xl font-bold"
+      >
+        Work in Progress
+      </h2>
+      <span
+        class="px-2 py-1 rounded-full text-sm bg-gray-100 text-gray-800"
+      >
+        review
+      </span>
+    </div>
+    <p
+      class="text-gray-600 mb-4"
+    >
+      This post is under review
+    </p>
+    <div
+      class="flex gap-2"
+    >
+      <span
+        class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm"
+      >
+        draft
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card Component Snapshots > renders default draft card correctly 1`] = `
+<div>
+  <div
+    class="border rounded-lg p-4 shadow-sm"
+  >
+    <div
+      class="flex justify-between items-center mb-2"
+    >
+      <h2
+        class="text-xl font-bold"
+      >
+        Getting Started with Vitest
+      </h2>
+      <span
+        class="px-2 py-1 rounded-full text-sm bg-yellow-100 text-yellow-800"
+      >
+        draft
+      </span>
+    </div>
+    <p
+      class="text-gray-600 mb-4"
+    >
+      Learn how to test React components
+    </p>
+    <div
+      class="flex gap-2"
+    />
+  </div>
+</div>
+`;
+
+exports[`Card Component Snapshots > renders published card with tags correctly 1`] = `
+<div>
+  <div
+    class="border rounded-lg p-4 shadow-sm"
+  >
+    <div
+      class="flex justify-between items-center mb-2"
+    >
+      <h2
+        class="text-xl font-bold"
+      >
+        Advanced Testing Tips
+      </h2>
+      <span
+        class="px-2 py-1 rounded-full text-sm bg-green-100 text-green-800"
+      >
+        published
+      </span>
+    </div>
+    <p
+      class="text-gray-600 mb-4"
+    >
+      Master React testing strategies
+    </p>
+    <div
+      class="flex gap-2"
+    >
+      <span
+        class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm"
+      >
+        react
+      </span>
+      <span
+        class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm"
+      >
+        testing
+      </span>
+      <span
+        class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm"
+      >
+        vitest
+      </span>
+    </div>
+  </div>
+</div>
+`;
